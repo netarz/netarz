@@ -4,15 +4,39 @@
 
 **خرید سرویس‌های خارجی با تومان.** «نِت اَرز» مرکز خرید سرویس‌های خارجی برای کاربران ایرانی است.
 برای برنامه‌نویس‌ها دو وب‌سرویس داریم: API هوش مصنوعی سازگار با OpenAI و API نرخ ارز به تومان.
+برند هوش مصنوعی ما **[گیسو](#gisoo)** است: اپ و وب‌سرویس هوش مصنوعی به زبان فارسی.
 
-NetArz developer APIs: an OpenAI-compatible AI API (GPT, Claude, Gemini, DeepSeek) and a Toman exchange rate API.
+NetArz developer APIs: an OpenAI-compatible AI API (GPT, Claude, Gemini, DeepSeek) and a Toman exchange rate API,
+plus Gisoo, our Persian AI app and OpenAI/Anthropic-compatible API.
 
 [![Website](https://img.shields.io/badge/website-netarz.ir-ffc700?style=flat-square&labelColor=14161f)](https://netarz.ir/?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=header)
 [![Docs](https://img.shields.io/badge/docs-netarz.ir%2Fdocs-ffc700?style=flat-square&labelColor=14161f)](https://netarz.ir/docs?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=header)
 [![Open source](https://img.shields.io/badge/open%20source-netarz.ir%2Fopen--source-ffc700?style=flat-square&labelColor=14161f)](https://netarz.ir/open-source?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=header)
 [![OpenAI compatible](https://img.shields.io/badge/OpenAI-compatible-ffc700?style=flat-square&labelColor=14161f)](https://netarz.ir/ai-api?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=header)
+[![Gisoo](https://img.shields.io/badge/AI%20app-gisoo.pro-ffc700?style=flat-square&labelColor=14161f)](https://gisoo.pro/?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=header)
 
 </div>
+
+<a id="gisoo"></a>
+
+## گیسو؛ برند هوش مصنوعی نِت اَرز
+
+<a href="https://github.com/netarz/gisoo"><img src="assets/gisoo-banner.png" alt="گیسو: گفت‌وگو با مدل‌های هوش مصنوعی، ساخت تصویر و ویدیو و موسیقی و صدا، و وب‌سرویس API" width="100%"></a>
+
+[گیسو](https://gisoo.pro/?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=gisoo) اپ و وب‌سرویس هوش مصنوعی به زبان فارسی است: بیش از ۴۰۰ مدل از حدود ۵۰ سازنده با یک حساب و یک اعتبار.
+حساب، کیف پول، اعتبار و تیکت‌های گیسو و نِت اَرز یکی است.
+
+- **دستیار «گیسو»:** در اپ، برای هر پیام مدل مناسب را خودش انتخاب می‌کند و می‌گوید کدام مدل جواب داده.
+- **گفت‌وگو با هر مدل:** با عکس، PDF، Word و Excel، خواندن لینک، جست‌وجوی وب با منبع و حافظه.
+- **کارشناس‌ها:** ۲۲ دستیار هوش مصنوعی در حقوق، سلامت، مالی، کسب‌وکار و مهاجرت؛ متن آماده مثل نامه و قرارداد را Word یا PDF می‌دهند.
+- **گفت‌وگوی صوتی زنده** با «صدای گیسو».
+- **تولید محتوا:** تصویر (GPT Image، Nano Banana)، ویدیو (Veo 3.1، Sora 2)، موسیقی (Lyria)، متن به صدا و صدا به متن،
+  با ۱۷۰ قالب آماده در [کتابخانهٔ پرامپت](https://gisoo.pro/prompts?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=gisoo).
+- **وب‌سرویس:** `https://gisoo.pro/api/v1` سازگار با OpenAI، و Messages API شرکت Anthropic برای کتابخانهٔ Anthropic و
+  **Claude Code**. کلید نِت اَرز روی گیسو هم کار می‌کند.
+
+[اپ گیسو](https://gisoo.pro/app?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=gisoo) · [مستندات](https://gisoo.pro/docs?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=gisoo) · [Claude Code با گیسو](https://gisoo.pro/docs/anthropic?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=gisoo) ·
+[آموزش‌های ویدیویی](https://gisoo.pro/tutorials?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=gisoo) · [مخزن گیسو و نمونه‌کدها](https://github.com/netarz/gisoo)
 
 <a id="ai-api"></a>
 
@@ -53,6 +77,7 @@ curl -4 "https://netarz.ir/api/fx/v1/rates?codes=USD,EUR,AED" -H "Authorization:
 
 | مخزن | چیست | زبان‌ها |
 |---|---|---|
+| [gisoo](https://github.com/netarz/gisoo) | معرفی گیسو و نمونه‌کد وب‌سرویسش: Claude Code، کتابخانهٔ Anthropic و OpenAI، ساخت تصویر، ویدیو، موسیقی و صدا ([gisoo.pro](https://gisoo.pro/?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=repos)) | Python، Node.js، cURL |
 | [ai-api-examples](https://github.com/netarz/ai-api-examples) | نمونه‌کد API هوش مصنوعی: استریم، JSON، ابزارها (tools)، امبدینگ، تصویر و صوت، LangChain، ربات تلگرام، n8n، Cursor و Cline | Python، Node.js، PHP، Laravel، cURL |
 | [fx-api-examples](https://github.com/netarz/fx-api-examples) | نمونه‌کد API نرخ ارز، به‌علاوهٔ راهنمای قفل IP برای سرورهای بدون IP ثابت | PHP، JavaScript، Python، Laravel، Google Sheets، Excel |
 | [netarz-fx-wordpress](https://github.com/netarz/netarz-fx-wordpress) | افزونهٔ وردپرس نرخ ارز با شورت‌کد `[netarz_rate currency="usd"]` و ابزارک | PHP (وردپرس) |
@@ -78,7 +103,14 @@ curl -4 "https://netarz.ir/api/fx/v1/rates?codes=USD,EUR,AED" -H "Authorization:
 
 ## English
 
-**NetArz** buys foreign digital services for customers in Iran, paid in Toman. For developers we run two APIs:
+**NetArz** buys foreign digital services for customers in Iran, paid in Toman. For developers we run two APIs
+and an AI brand:
+
+- **Gisoo** ([gisoo.pro](https://gisoo.pro/?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=english)): our Persian AI app and API. 400+ models with one account; an assistant that
+  picks the model per message; chat with files, web search and memory; 22 AI expert assistants; live voice; image, video
+  and music generation. The API at `https://gisoo.pro/api/v1` is OpenAI-compatible and also speaks Anthropic's
+  Messages API, so the Anthropic SDKs and **Claude Code** work with it. [Docs](https://gisoo.pro/docs?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=english) ·
+  [Repo and examples](https://github.com/netarz/gisoo)
 
 - **AI API**: an OpenAI-compatible gateway at `https://netarz.ir/api/ai/v1`. One key for GPT, Claude (via OpenRouter),
   Gemini and DeepSeek models; prepaid credit bought in Toman. [Overview](https://netarz.ir/ai-api?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=english) ·
