@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://netarz.ir/open-source?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=header"><img src="assets/netarz-github-banner.png" alt="نِت اَرز: وب‌سرویس هوش مصنوعی سازگار با OpenAI و وب‌سرویس نرخ ارز به تومان" width="100%"></a>
+<a href="https://netarz.ir/open-source?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=header"><img src="assets/netarz-github-banner.png" alt="نِت اَرز: API هوش مصنوعی و API نرخ ارز برای برنامه‌نویس‌ها، با نمونه‌کد و افزونه‌های متن‌باز" width="100%"></a>
 
-**خرید سرویس‌های خارجی با تومان.** «نِت اَرز» مرکز خرید سرویس‌های خارجی برای کاربران ایرانی است.
+**خرید سرویس‌های خارجی با تومان.** «نِت اَرز» مرکز خرید سرویس‌ها و کالاهای دیجیتال خارجی است.
 برای برنامه‌نویس‌ها دو وب‌سرویس داریم: API هوش مصنوعی سازگار با OpenAI و API نرخ ارز به تومان.
 برند هوش مصنوعی ما **[گیسو](#gisoo)** است: اپ و وب‌سرویس هوش مصنوعی به زبان فارسی.
 
@@ -92,7 +92,7 @@ curl -4 "https://netarz.ir/api/fx/v1/rates?codes=USD,EUR,AED" -H "Authorization:
 ## تماس
 
 - **اشکال در کد:** در بخش Issues همان مخزن بنویسید. Pull Request هم می‌پذیریم.
-- **حساب، اعتبار و کلید:** از پنل نِت اَرز [تیکت بزنید](https://netarz.ir/tickets?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=contact) یا به `info@netarz.ir` ایمیل بفرستید.
+- **حساب، اعتبار و کلید:** از پنل نِت اَرز [تیکت بزنید](https://netarz.ir/tickets?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=contact) یا به `support@netarz.ir` ایمیل بفرستید؛ هر ایمیل به این نشانی یک تیکت باز می‌کند و پاسخ را با ایمیل می‌گیرید.
 - **مشکل امنیتی:** فقط به `dev@netarz.ir`، نه در Issue عمومی.
 
 «نِت اَرز» مرکز خرید سرویس‌های خارجی است و نمایندهٔ رسمی هیچ‌یک از شرکت‌هایی که نامشان در این مخزن‌ها آمده نیست.
