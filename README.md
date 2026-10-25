@@ -78,13 +78,15 @@ curl -4 "https://netarz.ir/api/fx/v1/rates?codes=USD,EUR,AED" -H "Authorization:
 | مخزن | چیست | زبان‌ها |
 |---|---|---|
 | [gisoo](https://github.com/netarz/gisoo) | معرفی گیسو و نمونه‌کد وب‌سرویسش: Claude Code، کتابخانهٔ Anthropic و OpenAI، ساخت تصویر، ویدیو، موسیقی و صدا ([gisoo.pro](https://gisoo.pro/?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=repos)) | Python، Node.js، cURL |
+| [gisoo-python](https://github.com/netarz/gisoo-python) | کتابخانهٔ کوچک پایتون: کلاینت رسمی OpenAI که به گیسو وصل شده، به‌همراه فهرست مدل‌ها | Python |
+| [gisoo-js](https://github.com/netarz/gisoo-js) | کتابخانهٔ Node (ESM) با تایپ‌های TypeScript: کلاینت OpenAI برای گیسو و فهرست مدل‌ها | JavaScript |
 | [ai-api-examples](https://github.com/netarz/ai-api-examples) | نمونه‌کد API هوش مصنوعی: استریم، JSON، ابزارها (tools)، امبدینگ، تصویر و صوت، LangChain، ربات تلگرام، n8n، Cursor و Cline | Python، Node.js، PHP، Laravel، cURL |
 | [fx-api-examples](https://github.com/netarz/fx-api-examples) | نمونه‌کد API نرخ ارز، به‌علاوهٔ راهنمای قفل IP برای سرورهای بدون IP ثابت | PHP، JavaScript، Python، Laravel، Google Sheets، Excel |
 | [netarz-fx-wordpress](https://github.com/netarz/netarz-fx-wordpress) | افزونهٔ وردپرس نرخ ارز با شورت‌کد `[netarz_rate currency="usd"]` و ابزارک | PHP (وردپرس) |
 | [netarz-ai-wordpress](https://github.com/netarz/netarz-ai-wordpress) | افزونهٔ هوش مصنوعی وردپرس: چت پشتیبانی هوشمند با سپردن گفت‌وگو به همکار، تیکتینگ و ابزار نوشتن ([معرفی](https://netarz.ir/ai-api/wordpress?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=repos)) | PHP (وردپرس، ووکامرس) |
 | [netarz-ai-whmcs](https://github.com/netarz/netarz-ai-whmcs) | افزونهٔ هوش مصنوعی WHMCS: چت آنلاین و پاسخ تیکت با هوش مصنوعی داخل WHMCS ([معرفی](https://netarz.ir/ai-api/whmcs?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=repos)) | PHP (WHMCS) |
 
-همهٔ پروژه‌های متن‌باز ما با توضیح کامل: [netarz.ir/open-source](https://netarz.ir/open-source?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=repos) ·
+فهرست یک‌جای همهٔ مخزن‌ها: [netarz.github.io](https://netarz.github.io/) · همهٔ پروژه‌های متن‌باز ما با توضیح کامل: [netarz.ir/open-source](https://netarz.ir/open-source?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=repos) ·
 همهٔ مستندات فنی: [netarz.ir/docs](https://netarz.ir/docs?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=repos)
 
 <a id="contact"></a>
@@ -119,6 +121,7 @@ and an AI brand:
   a free plan with delayed rates and a Pro plan with live rates and history. [Overview](https://netarz.ir/fx-api?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=english) ·
   [Docs](https://netarz.ir/docs/fx?utm_source=github&utm_medium=referral&utm_campaign=netarz&utm_content=english) · [Examples](https://github.com/netarz/fx-api-examples) ·
   [WordPress plugin](https://github.com/netarz/netarz-fx-wordpress)
+- **SDK helpers for Gisoo**: [gisoo-python](https://github.com/netarz/gisoo-python) and [gisoo-js](https://github.com/netarz/gisoo-js) (the official OpenAI clients preconfigured for Gisoo). Index of all repos: [netarz.github.io](https://netarz.github.io/)
 - **Plugins on the AI API**: [netarz-ai-wordpress](https://github.com/netarz/netarz-ai-wordpress) (AI support chat with human handoff, tickets and writing tools for WordPress/WooCommerce) and
   [netarz-ai-whmcs](https://github.com/netarz/netarz-ai-whmcs) (AI live chat and AI ticket replies inside WHMCS).
 
